@@ -49,11 +49,11 @@
 
       </section>
 
-    <section class="illustration-container">
+    <section class="illustration-container" data-aos="fade-right">
         <img src="/images/bg-curve-desktop.svg" alt="" class="main-content__img">
     </section>
 
-    <section class="main-content__section main-2">
+    <section class="main-content__section main-2" data-aos="fade-left">
       <section class="section-left">
            <h2 class="main-content__title">
             Stay productive, wherever you are
@@ -98,7 +98,7 @@
       </section>
       <section class="section-right">
         <img src="/images/illustration-2.svg" alt="">
-</section>
+           </section>
        </section>
      
      <section class="main-content__section main-3">
@@ -125,38 +125,48 @@
   </main>
  
 
-
   <footer class="site-footer">
-    <img src="/images/logo.svg" alt="Footer Logo" class="footer-logo">
+    <img class="footer-logo" src="images/logo.svg" alt="Fylo Logo">
     <section class="footer-main">
       <ul class="contact-info">
-        <li class="contact-info__item">Phone: +1-543-123-4567</li>
-        <li class="contact-info__item">example@fylo.com</li>
+        <li class="contact-info__item">
+          <img class="contact-icon" src="images/icon-phone.svg" alt="phone icon">
+          Phone: +1-543-123-4567</li>
+        <li class="contact-info__item">
+          <img class="contact-icon" src="images/icon-email.svg" alt="email icon">
+          example@fylo.com</li>
       </ul>
-
       <nav class="footer-nav nav nav1">
-       <a class="footer-nav__menu" href="">About Us</a>
-       <a class="footer-nav__menu" href="">Jobs</a>
-        <a class="footer-nav__menu" href="">Press</a>
-          <a class="footer-nav__menu" href="">Blog</a>
-        </ul>
+        <a class="footer-nav__menu" href="#">About Us</a>
+        <a class="footer-nav__menu" href="#">Jobs</a>
+        <a class="footer-nav__menu" href="#">Press</a>
+        <a class="footer-nav__menu" href="#">Blog</a>
       </nav>
-      <nav>
-        <ul>
-          <li><a href=""> Contact Us </a></li>
-          <li><a href=""> Terms</a></li>
-          <li><a href=""> Privacy</a></li>
-        </ul>
-        
-        
+      <nav class="footer-nav nav nav2">
+        <a class="footer-nav__menu" href="#">Contact Us</a>
+        <a class="footer-nav__menu" href="#">Terms</a>
+        <a class="footer-nav__menu" href="#">Privacy</a>
       </nav>
-  
+      <div class="social-menu">
+        <a class="social-menu__link" href="https://www.facebook.com/" target="_blank">
+          <span class="sr-only">Facebook link</span>
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="social-menu__link" href="https://www.twitter.com/" target="_blank">
+          <span class="sr-only">Twitter link</span>
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a class="social-menu__link" href="https://www.instagram.com/" target="_blank">
+          <span class="sr-only">Instagram link</span>
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
     </section>
    
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
   </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
